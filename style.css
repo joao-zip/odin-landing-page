@@ -16,6 +16,17 @@ header {
     justify-content: center;
 }
 
+header span {
+    font-size: 1.3em;
+}
+
+header a,
+.button {
+    text-decoration: none;
+    color: white;
+
+}
+
 .menu {
     width: 900px;
     height: 40px;
@@ -71,6 +82,8 @@ main {
 .random-infos {
     width: 800px;
     margin: auto;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .nice-phrase {
@@ -81,6 +94,10 @@ blockquote {
     width: 800px;
     margin: auto;
     padding: 40px 0;
+}
+
+blockquote strong {
+    text-align: right;
 }
 
 .bluebox {
@@ -104,4 +121,22 @@ blockquote {
     background-color: #3882f6;
     border: 2px solid white;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+}
+
+.box-button {
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 30px auto;
+    text-align: center;
 }
